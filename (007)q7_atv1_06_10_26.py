@@ -1,0 +1,2 @@
+num = int(input("Digite um número: "))
+print("Sua tabuada é: \n",num,"x 1 é",num,"\n",num,"x 2 é",num*2,"\n",num,"x 3 é",num*3,"\n",num,"x 4 é",num*4,"\n",num,"x 5 é",num*5,"\n",num,"x 6 é",num*6,"\n",num,"x 7 é",num*7,"\n",num,"x 8 é",num*8,"\n",num,"x 9 é",num*9,"\n",num,"x 10 é",num*10)
