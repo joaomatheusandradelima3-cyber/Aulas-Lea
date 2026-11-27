@@ -1,0 +1,21 @@
+meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Junho","Agosto","Setembro","Outubro","Novembro","Dezembro"]
+tempmed = list(range(12))
+meda = 0.0
+medo = 0.0
+
+#region código geral
+
+for tmp in tempmed:
+    sil = float(input(f"Digite a temperatura média do mês {tmp + 1}: "))
+    tempmed[tmp] = sil
+    meda = meda + tempmed[tmp]
+
+medo = meda/12
+
+print(f"\n\n-----------------------------\n\nMédia do ano: {medo}")
+
+for x in range(12):
+    if tempmed[x]>medo:
+        print(f"-----------------------------\nO mês de {meses[x]} tem temperatura de {tempmed[x]} e é maior que a média do ano.\n-----------------------------")
+
+#endregion
